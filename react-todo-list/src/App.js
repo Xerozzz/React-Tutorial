@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>React Todo</p>
+        <TodoForm addTodo ={addTodo}/>
       </header>
     </div>
   );
